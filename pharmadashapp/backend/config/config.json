@@ -1,0 +1,11 @@
+{
+    "development": {
+      "username": "davipharmauser",
+      "password": "K8U4wWiBUMWl1YhRJJ1OLG4CRDHucTjy",
+      "database": "pharmadb_lbjg",
+      "host": "dpg-ckuhmr237rbc738ccnq0-a.oregon-postgres.render.com",
+      "dialect": "postgres",
+      "port": 5432
+    }
+  }
+  
