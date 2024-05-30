@@ -1,7 +1,7 @@
 import React from 'react';
 import { Admin, Resource } from 'react-admin';
-import dataProvider from './dataProvider'; // Asegúrate de que la importación coincida con el nombre del archivo
-import { ClientList, ClientEdit, ClientCreate } from './clients';
+import dataProvider from './dataProvider';
+import { ClientList, ClientEdit, ClientCreate } from './clientes';
 import { ItemList, ItemEdit, ItemCreate } from './items';
 import { MensajeroList, MensajeroEdit, MensajeroCreate } from './mensajero';
 import { OrdenList, OrdenEdit, OrdenCreate } from './ordenes';
