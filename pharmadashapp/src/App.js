@@ -1,6 +1,6 @@
 import React from 'react';
 import { Admin, Resource } from 'react-admin';
-import dataProvider from './dataProvider';
+import dataProvider from './dataprovider';
 import { ClientList, ClientEdit, ClientCreate } from './clientes';
 import { ItemList, ItemEdit, ItemCreate } from './items';
 import { MensajeroList, MensajeroEdit, MensajeroCreate } from './mensajero';

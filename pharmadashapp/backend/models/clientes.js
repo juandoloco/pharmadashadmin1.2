@@ -1,14 +1,14 @@
 module.exports = (sequelize, DataTypes) => {
     const Clientes = sequelize.define('clientes', {
       id_clientes: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.BIGINT,
         primaryKey: true,
         autoIncrement: true
       },
-      cedula: DataTypes.STRING,
+      cedula: DataTypes.BIGINT,
       apellidos: DataTypes.STRING,
       nombre: DataTypes.STRING,
-      telefono: DataTypes.STRING,
+      telefono: DataTypes.BIGINT,
       direccion: DataTypes.STRING
     }, {
       timestamps: false,
