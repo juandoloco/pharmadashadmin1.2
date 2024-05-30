@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const routes = require('./routes');
-const { sequelize } = require('./models'); // Importa sequelize para sincronizar los modelos
+const { sequelize } = require('./models');
 const app = express();
 
 app.use(bodyParser.json());

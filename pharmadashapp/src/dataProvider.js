@@ -1,7 +1,7 @@
 import { fetchUtils } from 'react-admin';
 import { stringify } from 'query-string';
 
-const apiUrl = 'http://localhost:3000/api'; // Cambia esto por la URL de tu API
+const apiUrl = 'http://localhost:3000/api'; // Asegúrate de que esta URL es correcta
 const httpClient = fetchUtils.fetchJson;
 
 const dataProvider = {
@@ -84,4 +84,3 @@ const dataProvider = {
 };
 
 export default dataProvider;
-
